@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Quản Lý Sách"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/btn_themtacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Tác Giả" />
+    <Button
+        android:id="@+id/btn_danhsach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Danh Sách Tác Giả"/>
+    <Button
+        android:id="@+id/btn_quanlysach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sách"/>
+</LinearLayout>
